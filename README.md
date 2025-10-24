@@ -25,3 +25,19 @@ public class SnakeGame {
         GameFrame frame = new GameFrame();
     }
 }
+
+## How to Run
+
+### Clone the repository
+```bash
+git clone https://github.com/YourUsername/YourRepo.git
+cd YourRepo
+Compile the project
+bash
+Copy code
+javac SnakeGame.java GameFrame.java GamePanel.java
+Run the game
+bash
+Copy code
+java SnakeGame
+Note: All .java files should be in the same directory when compiling and running.
