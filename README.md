@@ -13,31 +13,8 @@ The player controls a snake that moves around the screen, eats apples to grow lo
 - Randomized apple placement
 
 ---
+## **How to Run**
 
-## **Files and Classes**
-
-### **SnakeGame.java**
-- **Purpose:** Entry point of the program.  
-- **Functionality:** Creates an instance of `GameFrame` to start the game.
-```java
-public class SnakeGame {
-    public static void main(String[] args) {
-        GameFrame frame = new GameFrame();
-    }
-}
-
-## How to Run
-
-### Clone the repository
-```bash
-git clone https://github.com/YourUsername/YourRepo.git
-cd YourRepo
-Compile the project
-bash
-Copy code
-javac SnakeGame.java GameFrame.java GamePanel.java
-Run the game
-bash
-Copy code
-java SnakeGame
-Note: All .java files should be in the same directory when compiling and running.
+1. Clone the repository
+2. Compile the project - make sure all .java files are in the same directory
+3. Run game - java SnakeGame
